@@ -29,7 +29,7 @@ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. */
 
-package org.firstinspires.ftc.robotcontroller.internal;
+package org.firstinspires.ftc.teamcode;
 
 import com.google.blocks.ftcrobotcontroller.runtime.BlocksOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.OpModeManager;
@@ -66,7 +66,7 @@ public class FtcOpModeRegister implements OpModeRegister {
         manager.register("Skeleton OpMode",SkeletonOpMode.class);
         manager.register("Best OpMode",JavaClass.class);
         manager.register("Conroy OpMode",Conroy.class);
-        manager.register("New Opmode",)
+        manager.register("New Opmode", NewDrive.class);
         /**
          * Register OpModes implemented in the Blocks visual programming language.
          */
