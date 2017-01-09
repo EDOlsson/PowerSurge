@@ -1,4 +1,4 @@
-package org.firstinspires.ftc.robotcontroller.internal;
+package org.firstinspires.ftc.teamcode;
 
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 import com.qualcomm.robotcore.hardware.DcMotor;
@@ -8,6 +8,7 @@ import static com.qualcomm.ftccommon.R.layout.servo;
 
 /**
  * Created by Travis on 12/8/2016.
+ * A new comment
  */
 
 public class JavaClass extends OpMode {
